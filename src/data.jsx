@@ -43,21 +43,42 @@ export const serviceLink = [
   {
     id: 1,
     icon: 'fas fa-wallet fa-fw',
-    title: 'saving money',
+    title: 'Administrative Services',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
   },
   {
     id: 2,
     icon: 'fas fa-tree fa-fw',
-    title: 'endless hiking',
+    title: 'Clinical and Non-Clinical Support',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
   },
   {
     id: 3,
     icon: 'fas fa-socks fa-fw',
-    title: 'amazing comfort',
+    title: 'Revenue Cycle Management (RCM)',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+  },
+  {
+    id: 4,
+    icon: 'fas fa-wallet fa-fw',
+    title: 'Customer Service and Support',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+  },
+  {
+    id: 5,
+    icon: 'fas fa-tree fa-fw',
+    title: 'Data Management and IT Support',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+  },
+  {
+    id: 6,
+    icon: 'fas fa-socks fa-fw',
+    title: 'Compliance and Regulatory Assistance',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
   },

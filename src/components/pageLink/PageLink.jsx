@@ -1,7 +1,7 @@
-const pageLink = ({ href, text }) => {
+const pageLink = ({ href, text, childClass }) => {
   return (
     <li>
-      <a href={href} className="nav-link">
+      <a href={href} className={childClass}>
         {text}
       </a>
     </li>
