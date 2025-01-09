@@ -16,6 +16,11 @@ export const pageLink = [
   },
   {
     id: 4,
+    href: '#clients',
+    text: 'client',
+  },
+  {
+    id: 5,
     href: '#career',
     text: 'career',
   },
