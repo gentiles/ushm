@@ -2,13 +2,18 @@ import logo from '../images/logoPng.png'
 import PageLinks from './pageLink/PageLinks'
 import { socialLinks } from '../data'
 import SocialLink from '../components/socialLink/SocialLink'
+import { useState } from 'react'
 
 const Navbar = () => {
   // const navBtn = document.getElementById('nav-toggle')
-  const links = document.getElementById('nav-links')
+  // const links = document.getElementById('nav-links')
+  const [isToggle, setToggle] = useState(false)
   const handleClick = () => {
-    return links.classList.toggle('show-links')
+    // return links.classList.toggle('show-links')
+    setToggle(!isToggle)
+    console.log(isToggle)
   }
+
   return (
     <nav className="navbar">
       <div className="nav-center">
@@ -24,9 +29,13 @@ const Navbar = () => {
           </button>
         </div>
         {/* { <!-- left this comment on purpose -->} */}
-        <PageLinks parentClass={'nav-links'} childClass={'nav-link'} />
-        {/* <SocialLink parentClass="nav-icons" /> */}
+        <PageLinks
+          parentClass={'nav-links'}
+          childClass={'nav-link'}
+          isToggle={isToggle}
+        />
 
+        {/* <SocialLink parentClass="nav-icons" /> */}
         <ul className="nav-icons">
           {socialLinks.map((item) => {
             const { id, href, icon } = item

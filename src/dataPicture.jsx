@@ -44,7 +44,7 @@ export const servicesPicture = [
     date: 'december 5th, 2019<',
     title: 'Molina Healthcare',
     description:
-      'Molina Healthcare was founded in 1980 by C. David Molina, an emergency room physician in Long Beach, California.[4] He had seen an influx of patients using the emergency room for common illnesses such as a sore throat or the flu because they were being turned away by doctors who would not accept Medi-Cal. Molina established his first primary care clinic with the goal of treating the lowest-income patients, regardless of their ability to pay.In September 2020, Molina Healthcare entered into an arrangement to purchase approximately all the assets of the Affinity Health Plan for about $380 million.[5]',
+      'Molina Healthcare was founded in 1980 by C. David Molina, an emergency room physician in Long Beach, California.[4] He had seen an influx of patients using the emergency room for common illnesses such as a sore throat or the flu because they were being turned away by doctors who would not accept Medi-Cal. Molina established his first primary care clinic with the goal of treating the lowest-income patients, regardless of their ability to pay.In September 2020, Molina Healthcare entered into an arrangement to purchase approximately all the assets of the Affinity Health Plan for about $380 million.',
     country: 'kenya',
     day: '20 days',
     price: '$3300',

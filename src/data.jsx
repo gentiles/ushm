@@ -21,8 +21,8 @@ export const pageLink = [
   },
   {
     id: 5,
-    href: '#career',
-    text: 'career',
+    href: '#contact',
+    text: 'contact',
   },
 ]
 
