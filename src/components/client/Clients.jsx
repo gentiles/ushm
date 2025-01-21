@@ -1,6 +1,6 @@
-import Title from '../Title'
+import Title from "../Title";
+import Client from "./Client";
 
-import Client from './Client'
 const Tours = () => {
   return (
     <section className="section" id="clients">
@@ -8,7 +8,7 @@ const Tours = () => {
       <Client />
       {/* <div className="section-center featured-center">{pictureList}</div> */}
     </section>
-  )
-}
+  );
+};
 
-export default Tours
+export default Tours;
